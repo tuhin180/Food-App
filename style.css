@@ -1,0 +1,56 @@
+body {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Lobster", cursive;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li,
+a,
+button {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+}
+.logo {
+  cursor: pointer;
+}
+.nav-link {
+  list-style: none;
+}
+.nav-link li {
+  display: inline-block;
+  margin-right: 30px;
+  padding: 0 10px;
+}
+.nav-link li a {
+  transition: all 0.3s ease 0s;
+  color: rgb(110, 199, 8);
+  font-size: 25px;
+}
+.nav-link li a:hover {
+  color: rgb(255, 255, 255);
+  background-color: red;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+span {
+  color: chartreuse;
+}
+i {
+  transition: all 0.3s ease 0s;
+  font-size: 25px;
+}
+i:hover {
+  color: rgb(255, 255, 255);
+  background-color: red;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
