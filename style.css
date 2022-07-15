@@ -54,3 +54,103 @@ i:hover {
   padding: 10px 20px;
   border-radius: 10px;
 }
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 92vh;
+  padding: 0px 60px;
+}
+.hero h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.hero span {
+  color: #71f60c;
+}
+.hero p {
+  margin-top: 10px;
+  color: rgb(112, 112, 112);
+  font-size: 16px;
+}
+.hero button {
+  width: 130px;
+  height: 45px;
+  align-items: center;
+  border: none;
+  background-color: #67ee07;
+  margin-top: 20px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.hero .hero-img {
+  position: relative;
+  height: 100%;
+  background-image: url(img/heroBg.png);
+  width: 40%;
+  background-repeat: no-repeat;
+}
+.hero .hero-img .img {
+  position: absolute;
+  top: 8%;
+  left: -20%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.hero .hero-img .img .item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 190px;
+  overflow: hidden;
+  background-color: #d4d4d486;
+  border-radius: 10px;
+  backdrop-filter: blur(20px);
+  margin: 20px;
+  box-shadow: 1px 5px 10px 0px rgba(190, 190, 190, 0.452);
+  border: 1px solid rgba(255, 255, 255, 0.438);
+}
+.hero .hero-img .img .item:hover {
+  transition: 0.3s ease-in-out;
+  transform: translateY(-12px);
+  cursor: pointer;
+}
+.hero .hero-img .img .item .item-img {
+  width: 60%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero .hero-img .img .item .item-img img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.hero .hero-img .img .item .item-img img:hover {
+  transform: scale(1.1);
+}
+.hero .hero-img .img .item .item-text {
+  text-align: center;
+}
+.hero .hero-img .img .item .item-text h5 {
+  font-size: 18px;
+  color: rgb(34, 34, 34);
+}
+.hero .hero-img .img .item .item-text p {
+  margin-top: 2px;
+  font-size: 14px;
+}
+.hero .hero-img .img .item .item-text h6 {
+  font-size: 20px;
+  color: #f30404;
+}
